@@ -23,7 +23,7 @@
 import React from 'react';
 import Enzyme, { mount, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import { Registry, config as liveuiConfig } from '@composiv/liveui-core';
+import { Registry, config as liveuiConfig } from '@eclipse-muto/liveui-core';
 import RemoteComponent from '../index';
 import { act } from '@testing-library/react';
 import 'whatwg-fetch';

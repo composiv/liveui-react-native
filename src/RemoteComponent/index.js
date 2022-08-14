@@ -22,7 +22,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Platform } from 'react-native';
-import { Registry, ViewBuilder, config as liveuiConfig } from '@composiv/liveui-core';
+import { Registry, ViewBuilder, config as liveuiConfig } from '@eclipse-muto/liveui-core';
 import PropTypes from 'prop-types';
 
 function RemoteComponent(props) {

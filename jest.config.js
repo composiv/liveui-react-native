@@ -18,6 +18,6 @@ module.exports = {
     '.*\\.(jpg|jpeg|png|gif|ico|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/internals/mocks/image.js',
     'react-native': '<rootDir>/internals/mocks/react-native.js',
   },
-  transformIgnorePatterns: ['<rootDir>/node_modules\/(?!@composiv)']
+  transformIgnorePatterns: ['<rootDir>/node_modules\/(?!@eclipse-muto)']
 
 };
